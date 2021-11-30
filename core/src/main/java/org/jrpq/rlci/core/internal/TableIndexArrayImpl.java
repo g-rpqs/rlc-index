@@ -50,7 +50,7 @@ public class TableIndexArrayImpl implements TableIndex {
         return decoder.get(encodedMr);
     }
 
-    // Parameter isT is not used anymore in the current version the RLC index.
+    // Parameter isT is not used anymore in the current version of the RLC index.
     private void add(IndexRow[] inOrOut, int v, int u, MinimumRepeat mr, boolean isT) {
         IndexRow indexRow = inOrOut[v];
         if (indexRow == null) {
