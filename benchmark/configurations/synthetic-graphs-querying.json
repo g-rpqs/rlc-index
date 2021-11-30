@@ -1,0 +1,11 @@
+{
+  "pathToWorkLoadRootDirector": "./benchmarks/workloads/synthetic-graphs",
+  "pathToGraphRootDirectory": "./benchmarks/datasets/synthetic-graphs",
+  "pathToResults": "./benchmark-results/standalone-results/synthetic-graphs/querying-results",
+  "methods": [
+    "RlcIndex"
+  ],
+  "repeatOfExecution": 5,
+  "timeOutDurationInMinutes": 120,
+  "skippedGraphNames": []
+}

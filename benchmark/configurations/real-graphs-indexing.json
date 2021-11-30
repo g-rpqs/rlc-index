@@ -1,0 +1,18 @@
+{
+  "pathToGraphRootDirectory": "./benchmarks/datasets/real-world-graphs",
+  "pathToWrite": "./benchmark-results/standalone-results/real-world-graphs/indexing-results",
+  "methods": [
+    "RlcIndex",
+    "Etc"
+  ],
+  "repeatOfExecution": 3,
+  "timeOutDurationInMinutes": 1440,
+  "skippedGraphNames": [
+    "08-soc-pokec-relationships",
+    "09-wiki-topcats",
+    "10-wiki-Talk",
+    "11-sx-stackoverflow",
+    "12-soc-LiveJournal1-50",
+    "13-wikipedia_link_fr-25"
+  ]
+}

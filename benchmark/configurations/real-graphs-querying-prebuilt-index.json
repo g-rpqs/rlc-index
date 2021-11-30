@@ -1,0 +1,11 @@
+{
+  "pathToWorkLoadRootDirector": "./benchmarks/workloads/real-world-graphs/rlc-queries-len2",
+  "pathToGraphRootDirectory": "./benchmarks/datasets/real-world-graphs",
+  "pathToResults": "./benchmark-results/standalone-results/real-world-graphs/querying-results",
+  "methods": [
+    "RlcIndex"
+  ],
+  "repeatOfExecution": 5,
+  "timeOutDurationInMinutes": 120,
+  "skippedGraphNames": []
+}

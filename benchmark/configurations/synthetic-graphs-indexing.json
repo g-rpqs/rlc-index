@@ -1,0 +1,10 @@
+{
+  "pathToGraphRootDirectory": "./benchmarks/datasets/synthetic-graphs",
+  "pathToWrite": "./benchmark-results/standalone-results/synthetic-graphs/indexing-results",
+  "methods": [
+    "RlcIndex"    
+  ],
+  "repeatOfExecution": 3,
+  "timeOutDurationInMinutes": 1440,
+  "skippedGraphNames": []
+}

@@ -1,0 +1,21 @@
+{
+  "pathToWorkLoadRootDirector": "./benchmarks/workloads/real-world-graphs/rlc-queries-len2",
+  "pathToGraphRootDirectory": "./benchmarks/datasets/real-world-graphs",
+  "pathToResults": "./benchmark-results/standalone-results/real-world-graphs/querying-results",
+  "methods": [
+    "RlcIndex",
+    "BiBfs",
+    "Bfs",
+    "Etc"
+  ],
+  "repeatOfExecution": 5,
+  "timeOutDurationInMinutes": 120,
+  "skippedGraphNames": [
+    "08-soc-pokec-relationships",
+    "09-wiki-topcats",
+    "10-wiki-Talk",
+    "11-sx-stackoverflow",
+    "12-soc-LiveJournal1-50",
+    "13-wikipedia_link_fr-25"
+  ]
+}
