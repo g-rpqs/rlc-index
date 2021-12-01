@@ -22,7 +22,7 @@ This repository provides the RLC index, a reachability index for processing grap
 #### Reproducibility
 In the rest of this section, suppose that we are in `benchmark/`
 
-1. Download the [rlc-benchmarks.tar.gz](https://drive.google.com/file/d/1cEmnJVipATISRY-QvulQNc2YT13q8-oC/view?usp=sharing) file (2.90 GB) contains the datasets and workloads used in the experiments of the technical report.
+1. Download the [rlc-benchmarks.tar.gz](https://drive.google.com/file/d/1cEmnJVipATISRY-QvulQNc2YT13q8-oC/view?usp=sharing) file (2.89GB) contains the datasets and workloads used in the experiments of the technical report.
 
 2. Execute `tar -czvf rlc-benchmarks.tar.gz`.
 
