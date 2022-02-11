@@ -89,7 +89,7 @@ public class WorkloadBenchmarkRunner {
         for (int k = 2; k < 5; k++) {
             RlcIndex<Integer, RelationshipEdge> rlcIndex;
             try {
-                rlcIndex = RlcIndex.deserialize(edgeLabeledGraph, pathToIndexDir + "" + k + ".txt");
+                rlcIndex = RlcIndex.deserialize(edgeLabeledGraph, pathToIndexDir + "" + k + ".rlci");
             } catch (IOException | ClassNotFoundException e) {
                 e.printStackTrace();
                 System.out.println("Index cannot be loaded.");
