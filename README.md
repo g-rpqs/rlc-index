@@ -1,6 +1,7 @@
 # RLC Index
 This repository provides the RLC index, a reachability index for processing graph queries with a concatenation of edge labels under the Kleene operator.
 
+For the technical details about the RLC index, please refer to our technical report: https://arxiv.org/abs/2203.08606
 
 #### Organization
 
@@ -10,7 +11,6 @@ This repository provides the RLC index, a reachability index for processing grap
 
 [benchmark](https://github.com/g-rpqs/rlc-index/tree/main/benchmark) contains the source code of the experiments in the technical report.
 
-[paper](https://github.com/g-rpqs/rlc-index/tree/main/paper/technical-report.pdf) includes the technical report of the RLC index.
 
 
 
